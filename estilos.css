@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font: 'Open Sans';
 }
 
 body{
@@ -11,7 +12,7 @@ body{
 }
 
 .contenedor{
-   width: 90%;
+   width: 100%;
    max-width: 1200px;
    margin: auto;
    overflow: hidden;
@@ -26,11 +27,14 @@ header{
    background-size: cover;
    background-attachment: fixed;
    background-position: 0 0;
+   box-shadow: 0px 20px 75px black;
+   position: relative;
 }
 
 header .contenedor{
    position: relative;
    height: 650px;
+   width: 100%;
 }
 
 header .menu{
@@ -53,7 +57,7 @@ header .menu a{
    margin: 40px 20px;
    text-decoration: none;
    position: relative;
-   font-weight: lighter;
+   font-weight: 300;
 
 }
 
@@ -74,12 +78,12 @@ header .textos{
 
 header .nombre {
    font-size: 50px;
-   font-weight: bold;
+   font-weight: 600;
 
 }
 
 header .nombre span{
-   font-weight: lighter;
+   font-weight: 300;
 }
 
 header .textos h3{
@@ -89,6 +93,86 @@ header .textos h3{
 
 }
 
+/* ---------------- A C E R C A  D E -------------------------------------------------------------------------------- */
+.acerca-de{
+   /* width: 100%; */
+   background: blue;
+
+}
+
+.acerca-de .contenedor{
+   display: flex;
+   justify-content: center;
+
+}
+
+.acerca-de .contenedor .textos{
+   margin-top: 45px;
+   margin-bottom: 45px;
+   font-size: 30px;
+   text-align: center;
+   width: 50%;
+   color: #fff;
+}
+
+.acerca-de .contenedor .textos h2{
+   font-weight: 300;
+}
+
+.acerca-de .contenedor .textos span{
+   color: yellow;
+}
+
+
+/* ---------------- P L A T A F O R M A S ------------------------------------------------ */
+
+.plataformas{
+   background: red;
+   box-shadow: 0px -10px 75px black;
+}
+
+.plataformas .contenedor{
+   width: 75%;
+   margin-bottom: 40px;
+   background: green;
+}
+
+.main .plataformas .contenedor .imagenes{
+   margin-top: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.main .plataformas .contenedor .imagenes .imagen{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+   margin: 10px;
+   padding: 10px;
+   height: 100px;
+   background: #fff;
+   margin-bottom: 30px;
+   border-radius: 6%;
+}
+
+.main .plataformas .contenedor .imagenes .imagen img{
+   height: 50px;
+
+}
+
+.main .plataformas .contenedor .imagenes .imagen .img-omega {
+   margin-top: 22px;
+}
+
+.main .plataformas .contenedor .textos{
+   font-size: 18px;
+   text-align: center;
+   line-height: 1.5;
+}
 
 
 /*  */
