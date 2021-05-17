@@ -77,7 +77,7 @@ header .textos{
 }
 
 header .nombre {
-   font-size: 50px;
+   font-size: 55px;
    font-weight: 600;
 
 }
@@ -88,7 +88,7 @@ header .nombre span{
 
 header .textos h3{
    font-weight: lighter;
-   font-size: 25px;
+   font-size: 30px;
    font-style: italic;
 
 }
@@ -136,21 +136,24 @@ header .textos h3{
 }
 
 
+
+
 /* ---------------- P L A T A F O R M A S ------------------------------------------------ */
 
 .plataformas{
-   background: red;
+   background: url(pictures/texturaAcerca-de.png);
    box-shadow: 0px -10px 75px black;
 }
 
 .plataformas .contenedor{
    width: 75%;
-   margin-bottom: 40px;
-   background: green;
+
+   /* margin-bottom: 40px; */
+   /* background: green; */
 }
 
 .main .plataformas .contenedor .imagenes{
-   margin-top: 40px;
+   margin-top: 55px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -162,13 +165,10 @@ header .textos h3{
    display: flex;
    justify-content: center;
    align-items: center;
-   border: 1px solid black;
    margin: 10px;
    padding: 10px;
    height: 100px;
-   background: #fff;
    margin-bottom: 30px;
-   border-radius: 6%;
 }
 
 .main .plataformas .contenedor .imagenes .imagen img{
@@ -181,9 +181,18 @@ header .textos h3{
 }
 
 .main .plataformas .contenedor .textos{
-   font-size: 18px;
+   width: 100%;
+   padding-left: 90px;
+   padding-right: 90px;
+   margin-bottom: 70px;
+   font-size: 22px;
    text-align: center;
    line-height: 1.5;
+}
+
+.main .plataformas .contenedor .textos p{
+   width: 100%;
+   margin-top: 10px;
 }
 
 
