@@ -13,7 +13,7 @@ body{
 
 .contenedor{
    width: 100%;
-   max-width: 1200px;
+   /* max-width: 1200px;   Esto cambia muchoooooo        */
    margin: auto;
    overflow: hidden;
 }
@@ -27,7 +27,7 @@ header{
    background-size: cover;
    background-attachment: fixed;
    background-position: 0 0;
-   box-shadow: 0px 20px 75px black;
+   /* box-shadow: 0px 2px 75px black; */
    position: relative;
 }
 
@@ -96,10 +96,8 @@ header .textos h3{
 /* ---------------- A C E R C A  D E -------------------------------------------------------------------------------- */
 .acerca-de{
    /* width: 100%; */
-   background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
-
-
-
+   background-color: #061a40;
+   background-image: linear-gradient(62deg, #061a40 1%, #1459d8 100%);
 }
 
 .acerca-de .contenedor{
@@ -126,15 +124,15 @@ header .textos h3{
 }
 
 .acerca-de .contenedor .textos .naranja{
-   color: #A44427;
+   color: #D23521;
 }
 
 .acerca-de .contenedor .textos .verde{
-   color: #49C829;
+   color: #5ED6D0;
 }
 
 .acerca-de .contenedor .textos .amarillo{
-   color: #FFE51C;
+   color: #FAAE09;
 }
 
 
@@ -143,8 +141,8 @@ header .textos h3{
 /* ---------------- P L A T A F O R M A S ------------------------------------------------ */
 
 .plataformas{
-   background: url(pictures/texturaAcerca-de.png);
-   box-shadow: 0px -10px 75px black;
+   /* background: url(pictures/texturaAcerca-de.png); */
+   /* box-shadow: 0px -1px 75px black; */
 }
 
 .plataformas .contenedor{
@@ -196,6 +194,99 @@ header .textos h3{
    width: 100%;
    margin-top: 10px;
 }
+
+/* ---------------- M I S I O N ------------------------------------------------ */
+
+.main .mision{
+
+}
+
+.mision .contenedor{
+   width: 100%;
+   display: flex;
+   /* height: auto; */
+
+}
+
+.mision .contenedor .textos{
+   width: 50%;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 80px;
+}
+
+.mision .contenedor .izq{
+   background-color: #3676ec;
+background-image: linear-gradient(45deg, #3676ec 0%, #0b2f73 100%);
+}
+
+.mision .contenedor .der{
+   background-color: #0b2f73;
+   background-image: linear-gradient(45deg, #0b2f73 0%, #3676ec 100%);
+}
+
+
+
+.mision .contenedor .textos h3{
+   font-size: 25px;
+   width: 100%;
+   margin-bottom: 20px;
+
+}
+
+.mision .contenedor .textos p{
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 10px;
+}
+
+
+.contenedor .iconos{
+   width: 50%;
+   padding: 0 120px;
+   padding-top: 50px;
+}
+
+.contenedor .iconos .arriba{
+   display: flex;
+   flex-direction: row;
+}
+
+.contenedor .iconos .abajo{
+   display: flex;
+   flex-direction: row-reverse;
+   padding-bottom: 50px;
+}
+
+.contenedor .iconos img{
+   width: 220px;
+}
+
+
+.contenedor .superior{
+   padding: 0 100px;
+   padding-top: 50px;
+}
+
+.contenedor .superior .arriba{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.contenedor .superior .abajo{
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 50px;
+}
+
+.contenedor .superior img{
+   width: 200px;
+   padding-top: 20px;
+}
+
+
 
 
 /*  */
